@@ -1,8 +1,10 @@
 {
-  "name": "designsysytem",
-  "version": "0.1.0",
-  "private": true,
+  "name": "curriki-design-system",
+  "version": "1.0.2",
+  "description": "Curriki Design system",
+  "author": "Muhammad Qamar",
   "dependencies": {
+    "@babel/polyfill": "^7.12.1",
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-regular-svg-icons": "^5.15.4",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
@@ -21,12 +23,9 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "start": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook -s public",
+    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files"
   },
   "eslintConfig": {
     "extends": [
@@ -57,6 +56,9 @@
     ]
   },
   "devDependencies": {
+    "@babel/cli": "^7.15.4",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
     "@storybook/addon-actions": "^6.3.7",
     "@storybook/addon-essentials": "^6.3.7",
     "@storybook/addon-links": "^6.3.7",
