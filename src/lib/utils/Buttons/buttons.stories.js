@@ -1,6 +1,7 @@
 /*eslint-disable*/
 import React from "react";
 import Buttons from "./buttons";
+import { faTimes } from "@fortawesome/free-solid-svg-icons";
 
 export default {
   title: "Utilities/Buttons",
@@ -15,14 +16,13 @@ const Template = (args) => <Buttons {...args} />;
 export const ButtonProps = Template.bind({});
 
 ButtonProps.args = {
-  primary: false,
+  primary: true,
   secondary: false,
-  defaultgrey: false,
-  defaultwhite: false,
-  icon: "",
+  disabled: false,
+  icon: faTimes,
   width: "",
   height: "",
   radius: "",
-  text: "",
+  text: "text",
   type: "submit",
 };

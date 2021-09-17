@@ -1,0 +1,76 @@
+@import "../../assets/css/index.scss";
+.curriki-utility-headings {
+  font-weight: 500;
+  font-family: $rubik;
+  color: $text-gray;
+  line-height:normal;
+  font-style: normal;
+  margin:0;
+  padding: 0;
+}
+
+.curriki-utility-headings.heading-one {
+  font-size:48px;
+  line-height:58px;
+}
+
+
+.curriki-utility-headings.heading-four {
+  font-size:24px;
+  line-height:28px;
+  font-weight: 300;
+}
+
+.curriki-utility-headings.heading-five {
+  font-size:18px;
+  line-height:24px;
+}
+
+.curriki-utility-headings.heading-six {
+  font-size:14px;
+  line-height:26px;
+}
+
+.curriki-utility-headings.paragraph-one{
+  font-family: $sans;
+  font-size:18px;
+  font-weight: 400;
+  line-height:26px;
+}
+
+.curriki-utility-headings.paragraph-two{
+  font-family: $sans;
+  font-size:16px;
+  font-weight: 400;
+  line-height:22px;
+}
+
+.curriki-utility-headings.paragraph-three{
+  font-family: $sans;
+  font-size:14px;
+  font-weight: 400;
+  line-height:20px;
+}
+
+.curriki-utility-headings.paragraph-four{
+  font-family: $sans;
+  font-size:12px;
+  font-weight: 400;
+  line-height:16px;
+}
+
+.curriki-utility-headings.link1{
+  font-family: $sans;
+  font-size:14px;
+  font-weight: 600;
+  line-height:20px;
+  text-decoration: underline;
+}
+
+.curriki-utility-headings.link2{
+  font-family: $sans;
+  font-size:12px;
+  font-weight: 600;
+  line-height:16px;
+  text-decoration: underline;
+}
