@@ -25,7 +25,8 @@
   "scripts": {
     "start": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
-    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files"
+    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files",
+    "start:prod": "node server.js"
   },
   "eslintConfig": {
     "extends": [
