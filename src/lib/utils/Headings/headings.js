@@ -35,19 +35,19 @@ const Headings = ({ text, color, className, headingType, italic, weight, url, ta
       <h1 className={currikiUtility} style={currikiStyle}>{text}</h1>
     )}
      {headingType === 'h2' && (
-      <h1 className={currikiUtility} style={currikiStyle}>{text}</h1>
+      <h2 className={currikiUtility} style={currikiStyle}>{text}</h2>
     )}
      {headingType === 'h3' && (
-      <h1 className={currikiUtility} style={currikiStyle}>{text}</h1>
+      <h3 className={currikiUtility} style={currikiStyle}>{text}</h3>
     )}
     {headingType === 'h4' && (
-      <h1 className={currikiUtility} style={currikiStyle}>{text}</h1>
+      <h4 className={currikiUtility} style={currikiStyle}>{text}</h4>
     )}
     {headingType === 'h5' && (
-      <h1 className={currikiUtility} style={currikiStyle}>{text}</h1>
+      <h5 className={currikiUtility} style={currikiStyle}>{text}</h5>
     )}
     {headingType === 'h6' && (
-      <h1 className={currikiUtility} style={currikiStyle}>{text}</h1>
+      <h6 className={currikiUtility} style={currikiStyle}>{text}</h6>
     )}
     {headingType === 'label' && (
       <label className={currikiUtility} style={currikiStyle}>{text}</label>
