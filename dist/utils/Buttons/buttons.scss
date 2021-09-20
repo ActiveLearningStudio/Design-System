@@ -1,0 +1,104 @@
+@import "../../assets/css/index.scss";
+
+.curriki-utility,
+.curriki-theme-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 36px;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 18px;
+  background:transparent;
+  padding:0px 32px;
+  box-shadow: 0px 2px 6px 1px rgba(8, 72, 146, 0.16);
+  font-size:14px;
+  font-family: $rubik;
+  font-weight: 500;
+  text-transform: capitalize;
+ 
+  &:hover,&:focus {
+    cursor:pointer;
+    outline: none;
+
+  }
+}
+
+.curriki-theme-button.remove-button-padding {
+  border-radius:50%;
+  padding:0;
+  width:32px;
+  height:32px
+  
+}
+
+.curriki-theme-primary-button {
+  background: $fun-blue-1;
+  border: none;
+  color: $white;
+  svg {
+    color:$curriki-main-yellow
+  }
+  &:hover,&:focus {
+    background-color:$dodger-blue;
+
+    svg {
+      color:$white
+    }
+  }
+
+  &:active {
+    background-color:$fun-blue-dark;
+    svg {
+      color:$curriki-main-yellow
+    }
+  }
+
+  &:focus svg {
+      color:$curriki-main-yellow
+    }
+  
+}
+.curriki-theme-secondary-button {
+  background: $white;
+  border: 1px  solid $fun-blue-1;
+  color: $fun-blue-1;
+
+  &:hover{
+    background-color:$dodger-blue;
+    border:none;
+    color:$white;
+  }
+
+  &:focus {
+    background-color:$white;
+    border: 1px  solid $dodger-blue;;
+    color: $dodger-blue;;
+  }
+
+  &:active {
+    background-color:$white;
+    border: 1px  solid $fun-blue-dark;
+    color: $fun-blue-dark;
+  }
+}
+.curriki-theme-disabled-button {
+  background: $gray;
+  border:none;
+  color: $white;
+  box-shadow: 0px 0px 0px 0px #fff;
+  svg {
+    color:$white;
+  }
+}
+
+.curriki-theme-secondary-button.curriki-theme-disabled-button{
+  background: $light-gray;
+  border:1px solid $text-gray;
+  color: $text-gray;
+  box-shadow: 0px 0px 0px 0px $white;
+}
+
+.curriki_btn-mr-2 {
+  margin-right: 10px;
+}
