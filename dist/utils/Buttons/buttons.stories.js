@@ -9,6 +9,8 @@ var _react = _interopRequireDefault(require("react"));
 
 var _buttons = _interopRequireDefault(require("./buttons"));
 
+var _freeSolidSvgIcons = require("@fortawesome/free-solid-svg-icons");
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 /*eslint-disable*/
@@ -28,14 +30,13 @@ const Template = args => /*#__PURE__*/_react.default.createElement(_buttons.defa
 const ButtonProps = Template.bind({});
 exports.ButtonProps = ButtonProps;
 ButtonProps.args = {
-  primary: false,
+  primary: true,
   secondary: false,
-  defaultgrey: false,
-  defaultwhite: false,
-  icon: "",
+  disabled: false,
+  icon: _freeSolidSvgIcons.faTimes,
   width: "",
   height: "",
   radius: "",
-  text: "",
+  text: "text",
   type: "submit"
 };
