@@ -2,17 +2,6 @@
 .dropdown-toggle::after {
   display: none;
 }
-// // .dropdown-toggle::after {
-// // display: inline-block;
-// // margin-left: 0.255em;
-// // vertical-align: 0.255em;
-// // content: url(../../assets/images/close.png) !important;
-// // border-top: 0.3em solid;
-// // border-right: 0.3em solid transparent;
-// // border-bottom: 0;
-// // border-left: 0.3em solid transparent;
-// // }
-
 .curriki-default-dropdown {
   .btn {
     text-align: center;
@@ -35,6 +24,7 @@
     display: flex;
     justify-content: space-between;
     color: #767676 !important;
+    transition: none;
     .disabled-btn {
       background: #f1f1f1 !important;
       border: 1px solid #959595 !important;
@@ -117,13 +107,13 @@
     .curriki-dropdown-icon {
       color: #084892;
     }
-    // .curriki-dropdown-icon {
-    //   // font-size: 35px;
-    //   // color: #515151;
-    //   fill: #515151;
-    //   stroke: #084892;
-    //   stroke-width: 0px;
-    // }
+    .curriki-dropdown-icon {
+      font-size: 35px;
+      color: #084892;
+      fill: #084892;
+      stroke: #e5eeff;
+      stroke-width: 52px;
+    }
   }
   .btn:active {
     background: #ffffff;

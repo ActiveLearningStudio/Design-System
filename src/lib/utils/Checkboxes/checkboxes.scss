@@ -1,20 +1,34 @@
 @import "../../assets/css/index.scss";
 
-.curriki-default-checkbox{
+.curriki-default-checkbox {
   display: flex;
   /* flex-direction: column; */
   align-content: center;
   align-items: center;
   padding: 5px;
-  input{
+
+  input {
     width: 18px;
     height: 18px;
     border: 2px solid #084892;
+    box-shadow: none;
   }
-  input:hover{
-    border: 2px solid #285AA5 !important;
+  .form-check-input:hover {
+    border: 2px solid #285aa5 !important;
+    box-shadow: #084892;
   }
-  label{
+  .form-check-input:checked[type="checkbox"] {
+    background-image: url(../../assets/images/checkbox-tick.png) !important;
+    border: 2px solid #084892 !important;
+    background-color: #ffffff;
+  }
+
+  .form-check-input:focus[type="checkbox"] {
+    border: 2px solid #285aa5;
+    box-shadow: #084892 !important;
+  }
+
+  label {
     margin-left: 10px;
     text-align: center;
     margin-top: 3px;
@@ -27,5 +41,23 @@
     text-align: left;
     color: #515151;
   }
- 
+}
+
+.curriki-disbaled-checkbox {
+  input {
+    border: 2px solid #959595;
+  }
+  .form-check-input:hover {
+    box-shadow: none;
+    border: 2px solid #959595 !important;
+  }
+  label {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #959595;
+  }
 }
