@@ -1,0 +1,31 @@
+@import "../../assets/css/index.scss";
+
+.curriki-default-checkbox{
+  display: flex;
+  /* flex-direction: column; */
+  align-content: center;
+  align-items: center;
+  padding: 5px;
+  input{
+    width: 18px;
+    height: 18px;
+    border: 2px solid #084892;
+  }
+  input:hover{
+    border: 2px solid #285AA5 !important;
+  }
+  label{
+    margin-left: 10px;
+    text-align: center;
+    margin-top: 3px;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #515151;
+  }
+ 
+}
