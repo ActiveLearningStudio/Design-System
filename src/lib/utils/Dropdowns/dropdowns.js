@@ -6,7 +6,7 @@ import "./dropdowns.scss";
 import { DropdownButton, Dropdown ,Form} from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const Dropdowns = ({
+const CurrikiDropdowns = ({
   title,
   className,
   primary,
@@ -60,7 +60,7 @@ const Dropdowns = ({
   );
 };
 
-Dropdowns.propTypes = {
+CurrikiDropdowns.propTypes = {
   title: PropTypes.string,
   disabled: PropTypes.bool,
   className: PropTypes.string,
@@ -70,4 +70,4 @@ Dropdowns.propTypes = {
   DropdownMenuItem: PropTypes.array,
   onClick: PropTypes.func,
 };
-export default Dropdowns;
+export default CurrikiDropdowns;

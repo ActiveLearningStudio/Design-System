@@ -1,0 +1,37 @@
+@import "../../assets/css/index.scss";
+.curriki-checked-switches {
+  .react-switch-bg {
+    background: #ffca70 !important;
+    width: 45px !important;
+    height: 18px !important;
+    border-radius: 10px !important;
+  }
+  .react-switch-handle {
+    height: 24px !important;
+    width: 24px !important;
+    background: #f8af2c !important;
+    box-shadow: 0px 1px 2px 1px rgba(248, 175, 44, 0.1) !important;
+    transform: translateY(-4px) !important;
+    transform: translateX(-7px);
+    transition: background-color 0.25s ease 0s, transform 0.25s ease 0s,
+      box-shadow 0.15s ease 0s;
+  }
+}
+.curriki-unchecked-switches {
+  .react-switch-bg {
+    background: #959595 !important;
+    width: 44px !important;
+    height: 18px !important;
+    border-radius: 10px !important;
+  }
+  .react-switch-handle {
+    height: 24px !important;
+    width: 24px !important;
+    background: #767676 !important;
+    box-shadow: 0px 1px 4px 1px rgba(81, 81, 81, 0.16) !important;
+    transform: translateY(-4px) translateX(20px) !important;
+
+    transition: background-color 0.25s ease 0s, transform 0.25s ease 0s,
+      box-shadow 0.15s ease 0s;
+  }
+}

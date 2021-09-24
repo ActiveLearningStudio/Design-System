@@ -1,0 +1,208 @@
+@import "../../assets/css/index.scss";
+.curriki-default-search {
+  align-items: center;
+  padding: 8px 16px !important;
+  width: 371px;
+  height: 40px;
+  background: #ffffff !important;
+  box-sizing: border-box;
+  border-radius: 20px;
+  input {
+    width: 307px;
+    left: calc(50% - 307px / 2 - 16px);
+    font-family: $sans !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px !important;
+    line-height: 20px;
+  }
+  Button {
+    border-left: none !important;
+  }
+}
+.curriki-primary-search {
+  border: 1px solid #084892 !important;
+  input {
+    color: #084892 !important;
+  }
+  Button {
+    border-left: none !important;
+    color: #084892 !important;
+    svg {
+      fill: #084892 !important;
+    }
+  }
+  ::placeholder {
+    color: #084892 !important;
+  }
+}
+.curriki-primary-search:hover {
+  border: 1px solid #285aa5 !important;
+  box-shadow: 0px 2px 6px 1px rgba(8, 72, 146, 0.16) !important;
+  input {
+    color: #285aa5 !important;
+  }
+  ::placeholder {
+    color: #285aa5 !important ;
+  }
+  Button {
+    svg {
+      fill: #285aa5 !important ;
+    }
+  }
+}
+.curriki-primary-search:active {
+  border: 1px solid #063a75 !important;
+  box-shadow: 0px 1px 4px 1px rgba(8, 72, 146, 0.16) !important;
+  input {
+    color: #063a75 !important;
+  }
+  ::placeholder {
+    color: #063a75 !important ;
+  }
+  Button {
+    svg {
+      fill: #063a75 !important ;
+    }
+  }
+}
+
+.curriki-primary-search:focus-within {
+  border: 1px solid #285aa5 !important;
+  box-shadow: 0px 0px 4px 2px rgba(46, 141, 245, 0.48) !important;
+  input {
+    color: #063a75 !important;
+  }
+  ::placeholder {
+    color: #063a75 !important ;
+  }
+  Button {
+    svg {
+      fill: #063a75 !important ;
+    }
+  }
+}
+.primary-disbaled-search {
+  border: 1px solid #959595 !important;
+  background: #F1F1F1 !important;
+  // padding: 0px 0px !important;
+  input{
+    color: #959595 !important;
+  }
+ ::placeholder{
+   color: #959595 !important;
+ }
+ Button{
+  background: #F1F1F1 !important;
+  svg{
+    fill: #959595 !important;
+  }
+  
+ }
+}
+.primary-disbaled-search:hover {
+  box-shadow: none !important;
+  border: 1px solid #959595 !important;
+  input{
+    color: #959595 !important;
+  }
+ ::placeholder,svg{
+   color: #959595 !important;
+ }
+ Button{
+  background: #F1F1F1 !important;
+  svg{
+    fill: #959595 !important;
+  }
+ }
+}
+
+.curriki-secondary-search {
+  align-items: flex-start;
+  padding: 4px 8px !important;
+  width: 276px !important;
+  background: #ffffff !important;
+  height: 40px !important;
+  border: none !important;
+  border-radius: 0 !important;
+  border-bottom: 2px solid #767676 !important;
+  input,
+  ::placeholder {
+    color: #767676 !important;
+  }
+  Button {
+    border-left: none !important;
+    // color: #084892 !important;
+    svg {
+      fill: #767676 !important;
+    }
+  }
+}
+.curriki-secondary-search:hover {
+  input,
+  ::placeholder {
+    color: #515151 !important;
+  }
+  Button {
+    svg {
+      fill: #515151 !important ;
+    }
+  }
+}
+.curriki-secondary-search:active {
+  input,::placeholder {
+    color: #515151 !important;
+  }
+  Button {
+    svg {
+      fill: #515151 !important ;
+    }
+  }
+}
+.curriki-secondary-search:focus-within {
+  background: #FFFFFF;
+box-shadow: 0px 0px 4px 2px rgba(89, 123, 160, 0.48) !important;
+border-radius: 4px !important;
+  input,::placeholder {
+    color: #515151 !important;
+  }
+  Button {
+    svg {
+      fill: #515151 !important ;
+    }
+  }
+}
+
+.secondary-disbaled-search {
+
+  background: #F1F1F1 !important;
+  input{
+    color: #959595 !important;
+  }
+ ::placeholder,svg{
+   color: #959595 !important;
+ }
+ Button{
+  background: #F1F1F1 !important;
+  svg{
+    fill: #959595 !important;
+  }
+ }
+}
+.secondary-disbaled-search:hover {
+border:none !important;
+border-bottom:  2px solid #767676 !important;
+  background: #F1F1F1 !important;
+  input{
+    color: #959595 !important;
+  }
+ ::placeholder,svg{
+   color: #959595 !important;
+ }
+ Button{
+  background: #F1F1F1 !important;
+  svg{
+    fill: #959595 !important;
+  }
+ }
+}

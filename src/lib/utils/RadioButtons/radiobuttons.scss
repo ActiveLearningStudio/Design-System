@@ -1,0 +1,80 @@
+@import "../../assets/css/index.scss";
+.curriki-default-radiobutton {
+  input {
+    width: 18px;
+    height: 18px;
+  }
+  label {
+    margin-left: 10px;
+    text-align: center;
+    margin-top: 3px;
+    font-family: $sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #515151;
+  }
+}
+.curriki-primary-radiobutton {
+  input {
+    border: 2px solid $fun-blue-1;
+    background-color: #ffffff;
+  }
+  .input:hover {
+    border: 2px solid #285aa5 !important;
+    box-shadow: $fun-blue-1 !important;
+  }
+  .form-check-input:checked[type="radio"] {
+    background-image: url(../../assets/images/radioButton.png) !important;
+    border: 2px solid $fun-blue-1 !important;
+
+    box-shadow: #285aa5;
+  }
+
+  .form-check-input:focus[type="radio"] {
+    border: 2px solid #285aa5;
+    box-shadow: #285aa5 !important;
+  }
+}
+.curriki-secondary-radiobutton {
+  input {
+    border: 2px solid #515151 !important;
+    background-color: #ffffff;
+  }
+  .input:hover {
+    border: 2px solid #285aa5 !important;
+    box-shadow: $fun-blue-1 !important;
+  }
+  .form-check-input:checked {
+    background-image: url(../../assets/images/white-tick.png) !important;
+    border: 4px solid #f8af2c !important;
+    background: #f8af2c;
+
+    box-shadow: none;
+  }
+
+  .form-check-input:focus[type="radio"] {
+    border: 2px solid #285aa5;
+    box-shadow: #285aa5 !important;
+  }
+}
+
+.curriki-disbaled-radiobutton {
+  input {
+    border: 2px solid #959595 !important;
+  }
+  .form-check-input:checked[type="radio"] {
+    background-image: none;
+    background-color: white !important;
+  }
+  .form-check-input:focus[type="radio"] {
+    border: 2px solid #285aa5;
+    box-shadow: none !important;
+  }
+  label {
+    color: #959595;
+  }
+}
