@@ -1,0 +1,58 @@
+@import "../../assets/css/index.scss";
+ .curriki-box-pagination{
+ .page-item{
+.page-link{
+    border: 1px solid #DDDDDD !important;
+    
+        font-family: $rubik !important;
+font-style: normal;
+font-weight: 500;
+
+line-height: 16px;
+text-align: center;
+color: #084892 !important;
+    }
+    a{
+        font-size: 14px !important;  
+    }
+    
+}
+.page-item.active .page-link{
+    background: #084892 !important;
+    color: #ffffff !important;
+    border: 1px solid #084892 !important;
+}
+//  .page-item:last-child .page-link{
+//  border: none !important;
+//  }
+ }
+ .curriki-circle-pagination{
+    .page-item{
+   .page-link{
+    // width: 32px !important;
+    // height: 32px !important;
+    background: #084892 !important;
+    border-radius: 16px !important;
+           font-family: $rubik !important;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 16px;
+   text-align: center;
+   color: #ffffff !important;
+       
+       }
+       a{
+           font-size: 18px !important;
+
+       }
+       
+   }
+   .page-item.active .page-link{
+       background: #084892 !important;
+       color: #ffffff !important;
+       border: 1px solid #084892 !important;
+   }
+   //  .page-item:last-child .page-link{
+   //  border: none !important;
+   //  }
+    }

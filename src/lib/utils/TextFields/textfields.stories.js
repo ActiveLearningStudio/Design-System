@@ -13,6 +13,12 @@ const Template = (args) => <CurrikiTextField  {...args} />;
 export const TextFieldProps = Template.bind({});
 
 TextFieldProps.args = {
+  label: "Label",
+  isError:false,
   disabled: false,
-  label: "checkbox text",
+  icon: faTimes,
+  placeholder:"Placeholder Name",
+  helpertext:"Helper text",
+  asRow: false,
+
 };
